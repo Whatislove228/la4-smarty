@@ -63,4 +63,4 @@ else{//если файл существует
     $smarty->assign('mas_traffic', $mas_traffic);//передача массива в шаблонизатор для вывода
 }
 
-$smarty->display("$path/temp/smarty/templates/traffic.tpl");//вызов отображения шаблона
+$smarty->display("temp/smarty/templates/traffic.tpl");//вызов отображения шаблона
