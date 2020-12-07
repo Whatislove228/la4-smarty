@@ -1,9 +1,5 @@
 <?php
-ini_set("display_errors", 1);
-$path = '';//дериктория корня документа выполн. скрипта
-echo '<pre>';
-print_r($path);
-echo '</pre>';
+
 //подлючение класса смарти
 require_once "Smarty/Smarty.class.php";
 

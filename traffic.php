@@ -1,7 +1,5 @@
 ﻿<?php
 require_once "includes/config.php"; //подключение файла
-
-error_reporting(E_ALL);
 if (!file_exists($traffic_file_name)) //проверка на существование файла
 {
     $smarty->assign('title', 'Трафик. Файл не существует');//передача переменной в шаблонизатор
