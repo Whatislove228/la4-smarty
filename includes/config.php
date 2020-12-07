@@ -1,7 +1,7 @@
 <?php
 $path = $_SERVER[ 'DOCUMENT_ROOT'];//дериктория корня документа выполн. скрипта
 //подлючение класса смарти
-require_once "$path/lab4/smarty/Smarty.class.php";
+require_once "$path/smarty/Smarty.class.php";
 
 $smarty = new Smarty();// создание обьекта смарти
 //указание конфигур. дерикторий смарти
