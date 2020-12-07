@@ -1,6 +1,8 @@
 <?php
 require_once "includes/config.php"; //подключение файла
-
+?>
+<h1>hhhhhhhhh</h1>
+<?php
 error_reporting(E_ALL);
 if (!file_exists($traffic_file_name)) //проверка на существование файла
 {
